@@ -103,6 +103,7 @@ case ${chosen} in
         ;;
     $suspend)
 		run_cmd --suspend
+		i3lock-fancy
         ;;
     $logout)
 		run_cmd --logout
